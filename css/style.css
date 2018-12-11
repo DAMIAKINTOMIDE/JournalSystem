@@ -1,0 +1,119 @@
+html,body{
+    font-family: roboto;
+    background-color:#c7723e;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: inline-grid;
+}
+.con{
+	height: 100%;
+}
+.footer_p{
+    background-color: #ffffff;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100hw;
+}
+
+footer{
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*FONT SIZES*/
+.fs-12{
+    font-size:12px;
+}
+.fs-14{
+    font-size:14px;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+/*COLORS*/
+label{
+    color: rgba(17, 16, 16, 0.5);
+}
+.btn-primary-color{
+    background-color: #c7503e;
+}
+.white-text-color{
+    color: #ffffff;
+}
+.black-text-color{
+    color: rgba(27, 26, 26, 0.8);
+}
+a{
+    color: #c7503e;
+    text-decoration: none;
+}
+a:hover{
+    color: #c7503e;
+    text-decoration: none;
+}
+.white-bg{
+    background-color: #ffffff;
+}
+.red-text-color{
+    color: rgb(199, 10, 10);
+}
+.primary-color{
+    color:#c7503e;
+}
+.offwhite-bg{
+    background-color: rgba(236, 184, 142, 0.5)
+}
+.yellow-bg{
+    background-color: rgba(255, 202, 6,1);
+}
+
+
+
+
+textarea.form-control{
+    text-align: left;
+}
+tbody tr td{
+    /* color: #ffffff; */
+}
+tbody tr{
+    cursor: pointer;
+   border-bottom:0!important;
+}
+thead tr th{
+    border: 0!important;
+    font-weight: 100;
+}
+.card{
+    border-top-right-radius: 0!important;
+    border-top-left-radius: 0!important;
+    
+}
+/* header{
+    box-shadow: 5px 10px rgba(235, 229, 229, 0.5);
+} */
+.underline{
+    text-decoration: underline!important;
+}
+.pagination li a{
+    border:0!important;
+    color:#c7503e; 
+}
+.pagination li a:hover{
+    border:0!important;
+    color:#000000; 
+    background-color: transparent;
+}
+.custom-border-top{
+    
+}
+header{
+  border-bottom: solid 0.5px rgba(129, 126, 126, 0.3)
+}
+.dropdown-menu.show{
+    left:-50px!important;
+}
+
