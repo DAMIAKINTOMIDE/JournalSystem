@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <img src="files/" alt="logo">
+       <h1 class="fw-500  text-center"><span class="white-text-color">i</span>Journal</h1>
     </header>
     <div class="container">
         <div class="col-12">
