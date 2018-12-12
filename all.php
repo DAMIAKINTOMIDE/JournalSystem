@@ -14,7 +14,7 @@ if(isset($_POST['signup-submit'])){
     if($email != $row["Email"]){
     $result = mysqli_query($config,$signup) or die(mysqli_error($config));
     $msg = "<p class='fs-14 alert-text-color mb-0 alert alert-warning text-center d-none rounded-0 border-0' role='alert'>Sign up successful!</p>";
-    header("location:profile.php");
+    header("location:login.php");
 
     }else{
         $msg = "<div class='alert alert-warning text-center d-none rounded-0 border-0' role='alert'>
