@@ -44,7 +44,7 @@ $user_id = $_SESSION["ID"];
 
         <div class="col-12 col-sm-10 mx-auto">
            
-            <div class="card rounded-bottom">
+            <div class="card rounded-bottom" style="height:600px;">
                 <div class="card-body">
                     <h5 class="card-title text-center mb-5">Set Up Profile!</h5>
 
